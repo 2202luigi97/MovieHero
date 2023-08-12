@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".superhero.DetailSuperHeroActivity">
+
+    <ImageView
+        android:id="@+id/imgDetailHero"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background_detail"
+        android:elevation="8dp"
+        app:cardCornerRadius="42dp"
+        android:layout_marginTop="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/superHeroName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/Text"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:text="Luis Cuadra" />
+
+            <TextView
+                android:id="@+id/superHeroRealName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/Text"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:text="real name" />
+
+            <TextView
+                android:id="@+id/superHeroGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/Text"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:gravity="center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:text="gender" />
+
+            <TextView
+                android:id="@+id/superHeroRace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/Text"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:text="race" />
+
+            <TextView
+                android:id="@+id/superHeroAppareance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/Text"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:text="aparicion" />
+            <TextView
+                android:id="@+id/superHeropublisher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/Text"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:text="comic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="20dp"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/viewIntelligence"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/superhero_Stat_Intelligence" />
+
+                <View
+                    android:id="@+id/viewStrength"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/superhero_Stat_Strength" />
+
+                <View
+                    android:id="@+id/viewSpeed"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/superhero_Stat_Speed" />
+
+                <View
+                    android:id="@+id/viewDurability"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/superhero_Stat_Durability" />
+
+                <View
+                    android:id="@+id/viewPower"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/superhero_Stat_Power" />
+
+                <View
+                    android:id="@+id/viewCombat"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/superhero_Stat_Combat" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="4dp"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="Intelligencia"
+                    android:textSize="10sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/Text"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:text="Fortaleza"
+                    android:textSize="10sp"
+                    android:layout_width="0dp"
+                    android:textColor="@color/Text"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:text="Velocidad"
+                    android:textSize="10sp"
+                    android:layout_width="0dp"
+                    android:textColor="@color/Text"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:text="Durabilidad"
+                    android:textSize="10sp"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:textColor="@color/Text"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:text="Poder"
+                    android:textSize="10sp"
+                    android:layout_width="0dp"
+                    android:textColor="@color/Text"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:text="Combate"
+                    android:layout_width="0dp"
+                    android:textSize="10sp"
+                    android:gravity="center"
+                    android:textColor="@color/Text"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="4dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

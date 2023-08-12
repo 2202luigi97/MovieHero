@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SearchViewNoUnderline" parent="Widget.AppCompat.SearchView">
+        <!-- Ajusta otras propiedades del SearchView según sea necesario -->
+        <item name="queryBackground">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">30sp</item> <!-- Cambia el tamaño del texto -->
+
+    </style>
+</resources>

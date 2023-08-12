@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Menu
+    <color name="menuText">#FFFFFF</color>
+    <color name="menuBackground">#455A64</color>
+    <color name="btnBackground">#455A64</color>
+    <color name="Background"> #7a9fb1</color>
+    <color name="Text">#FFFFFF</color>
+</resources>
+

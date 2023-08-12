@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    //Menu
+    <color name="menuText">#D50000</color>
+    <color name="Text">#D50000</color>
+    <color name="menuBackground"> #0097a7</color>
+    <color name="Background"> #01C0D5</color>
+    <color name="btnBackground">#0097a7</color>
+
+//SuperHeroApp
+    <color name="superhero_Item_Name">#742196F3</color>
+    <color name="superhero_Stat_Intelligence">#1AEF23</color>
+    <color name="superhero_Stat_Strength">#D31212</color>
+    <color name="superhero_Stat_Speed">#FF5722</color>
+    <color name="superhero_Stat_Durability">#2196F3</color>
+    <color name="superhero_Stat_Power">#FFC107</color>
+    <color name="superhero_Stat_Combat">#7147BC</color>
+
+</resources>
